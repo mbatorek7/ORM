@@ -17,7 +17,13 @@ router.get('/', async(req, res) => {
 
 router.get('/:id', async(req, res) => {
   const result = await Tag.findOne({
-    where: {id: req.params.id}
+    where: {id: req.params.id},
+    include: [
+      {
+        model: Product,
+        attributes: ['id', 'product_name']
+      }
+    ]
   })
   if(result) {
     res.json(result);
