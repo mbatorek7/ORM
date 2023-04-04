@@ -22,19 +22,21 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Description
+With this project, the user can get all categories, products, or tags along with related information. The user can also obtain a singular category, product, or tag by ID and they can delete or update by ID as well. The user can also create a new category, product, or tag.
 
 <p align="center">
-    <a href="https://github.com/mbatorek7/hw12-employee-tracker"><img src="https://img.shields.io/badge/-See Live Site-success?style=for-the-badge"  alt="GitHub Repo" ></a>
+    <a href="https://github.com/mbatorek7/hw13-ORM"><img src="https://img.shields.io/badge/-See Live Site-success?style=for-the-badge"  alt="GitHub Repo" ></a>
 </p>
 
 ## Screenshots
 
 Here is what the final product looks like and how to use it:
+![Final product.](./assets/images/final-product.gif)
 
 ## Installation
 To clone this repo:
 
-git clone 
+git clone git@github.com:mbatorek7/hw13-ORM.git
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
