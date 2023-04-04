@@ -31,6 +31,8 @@ With this project, the user can get all categories, products, or tags along with
 ## Screenshots
 
 Here is what the final product looks like and how to use it:
+
+
 ![Final product.](./assets/images/final-product.gif)
 
 ## Installation
